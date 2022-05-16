@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>ANU presentation - Matt Heffernan</title>
 
-  <title>ANU presentation - Matt Heffernan</title>
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
 
-  <link rel="stylesheet" href="dist/reset.css" />
-  <link rel="stylesheet" href="dist/reveal.css" />
-  <link rel="stylesheet" href="dist/theme/black.css" />
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
 
-  <!-- Theme used for syntax highlighted code -->
-  <link rel="stylesheet" href="plugin/highlight/monokai.css" />
-</head>
-
-<body>
-  <div class="reveal">
-    <div class="slides">
-      <!-- slide one  -->
-      <section data-markdown data-background-image="">
-        <textarea data-template>
-          ## Indigital
-
-          <img src="./spiral-school.png"></img>
-
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- slide one  -->
+        <section data-markdown data-background-image="">
+          <textarea data-template>
+          ## Production and Software Development  
+          <div>
+            <img src="./media/spiral-school.png" height="100"></img>
+            <img src="./media/guck-text-chrome.png" height="100"></img>
+          </div>
           Matt Heffernan
 
           <!-- this is where presenter notes go -->
@@ -33,46 +36,43 @@
           and I'm coming to you from Larakia country in Darwin, Northern Territory. and I'd like to pay my respects
           to the elders past and present of this country, and the respective countries each of you are on today.
 
-        </textarea>
+        </textarea
+          >
+        </section>
 
-      </section>
-
-      <!-- slide two -->
-      <section data-markdown>
-
-        <textarea data-template>
+        <!-- slide two -->
+        <section data-markdown>
+          <textarea data-template>
 
           ## What I'll be talking about
 
-
-
-
+          quote: "As a game designer you are a system's thinker"
           <!-- this is where presenter notes go -->
-          Note: test
-        </textarea>
-      </section>
+          Note: 
+        </textarea
+          >
+        </section>
+      </div>
     </div>
-  </div>
 
-  <script src="dist/reveal.js"></script>
-  <script src="plugin/notes/notes.js"></script>
-  <script src="plugin/markdown/markdown.js"></script>
-  <script src="plugin/highlight/highlight.js"></script>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
 
-  <!-- speaker view -->
-  <script src="plugin/notes/notes.js"></script>
+    <!-- speaker view -->
+    <script src="plugin/notes/notes.js"></script>
 
-  <script>
-    // More info about initialization & config:
-    // - https://revealjs.com/initialization/
-    // - https://revealjs.com/config/
-    Reveal.initialize({
-      hash: true,
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
 
-      // Learn about plugins: https://revealjs.com/plugins/
-      plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
-    });
-  </script>
-</body>
-
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
