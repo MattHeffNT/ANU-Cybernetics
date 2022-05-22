@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <title>ANU presentation - Matt Heffernan</title>
+
+  <link rel="stylesheet" href="dist/reset.css" />
+  <link rel="stylesheet" href="dist/reveal.css" />
+  <link rel="stylesheet" href="dist/theme/black.css" />
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- slide one  -->
+      <section>
+          <h2> Production and Software Development </h2>
+          <div>
+            <img src="./media/spiral-school.png" height="100" alt="Indigital logo"></img>
+            <img src="./media/guck-text-chrome.png" height="100" alt="Guck logo"></img>
+          </div>
+          <p>Matt Heffernan </p>
+
+          <!-- this is where presenter notes go -->
+          <aside class="notes">
+          Hi Cybernetics class , so good to be here and to get to meet you all...my name is Matt Heffernan.
+          and I'm coming to you from Larakia country in Darwin, Northern Territory. and I'd like to pay my respects
+          to the elders past and present of this country, and the respective countries each of you are on today.
+        </aside>
+      </section>
+
+      <!-- slide two -->
+      <section>
+          <h2> What I'll be talking about </h2>
+          <ul>
+            <li>Who I am</li> 
+            <li>Indigital - what we do, NBE, what it means</li> 
+            <li>GUCK - Indigi-Futurism, Future Folklore</li>
+            <li>Storytelling and Cybernetics</li>
+            <li>Questions</li>
+          </ul>
+
+          <!-- this is where presenter notes go -->
+          <aside class="notes">
+          So, this is what I'll be talking about today with you all. In my culture, it's important to identify yourself
+          by your name, who your "mob" are, and where you come from. So that's where I'll be starting.
+
+          I then want to talk a little bit about some of the work that I do at Indigital, and some of the ways in which
+          we leverage technology for social and economic good.
+
+          Then I want to talk about my other job as a video game producer at GUCK. And how Indigenous ownership of our
+          stories is vital for collaboration.I also want to look at what it means to express culture in subversive ways
+          that disrupt the mental models that are developed about how/when we can/and do express.
+
+          Finally, i'll conclude with some other stuff i'm working on, and how it integrates real world AI/robotics as
+          it is today, and how it could be imagined in the not too distant future. Mykei the robot dog.
+        </aside>
+      </section>
+
+      <!-- Who I am -->
+      <section>
+        <h1> Who I am </h1>
+
+        <img src="./media/papunya-from-the-air-data.jpg" alt="image of Papunya" height="300"></img>
+
+        <p>Papunya/Warumpi, NT</p>
+
+        <!-- speaker notes -->
+        <aside class="notes">
+          So my name is Matt I'm a Luritja/Arrernte and German/Irish mix.
+          in my language and culture I have a few names. My formal name
+          is Ngamurarri after my famous painter uncle "Mick Ngamurarri"
+          of the Papunya Tula arts movement. I have a few other names like
+          Tjapaltjarri, Kalibabu etc. But you can just call me Matt.
+
+          My family come from around this small remote community
+          in central Australia called Papunya or Warumpi and from communities even further west.
+          I spent the first few years of my life here.
+
+          I was first exposed to computers through my dad, who had an old laptop
+          that was the size of a small brief case.
+        </aside>
+
+        
+
+      </section>
+
+      <section>
+          <h2> Indigital </h2>
+          <p>what we do, The NBE, what it means</p>
+          <aside class="notes">
+           Hello world
+          </aside>
+      </section>
+
+      <section>
+        <h1>Hello Test</h1>
+        <p>Test</p>
+      </section>
+
+    </div> 
+  </div>
+
+  <script src="dist/reveal.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <!-- <script src="plugin/markdown/markdown.js"></script> -->
+  <script src="plugin/highlight/highlight.js"></script>
+
+  <!-- speaker view -->
+  <script src="plugin/notes/notes.js"></script>
+
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [ RevealHighlight, RevealNotes],
+    });
+  </script>
+</body>
+
+</html>
