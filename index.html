@@ -1,619 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>reveal.js – The HTML Presentation Framework</title>
+  <head>
+    <title>Matt Heffernan ANU-Cybnernetics</title>
 
-<meta name="description" content="A framework for easily creating beautiful presentations using HTML" />
-<meta name="author" content="Hakim El Hattab" />
+    <meta
+      name="description"
+      content="A framework for easily creating beautiful presentations using HTML"
+    />
+    <meta name="author" content="Hakim El Hattab" />
 
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="customized" content="Matt Heffernan" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
 
-<link rel="stylesheet" href="dist/reset.css" />
-<link rel="stylesheet" href="dist/reveal.css" />
-<link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!-- Theme used for syntax highlighting of code -->
-<link rel="stylesheet" href="plugin/highlight/monokai.css" />
-</head>
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
 
-<body>
-  <div class="reveal">
-    <!-- Any section element inside of this container is displayed as a slide -->
-    <div class="slides">
-      <section data-auto-animate>
-        <h2 data-id="title">Production and Software Development</h2>
-        <div>
-          <img src="./media/spiral-school.png" height="100" alt="Indigital logo" />
-          <img src="./media/guck-text-chrome.png" height="100" alt="Guck logo" />
-        </div>
-        <p>Matt Heffernan</p>
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
 
-        <!-- this is where presenter notes go -->
-        <aside class="notes">
-          Hi Cybernetics class , so good to be here and to get to meet you
-          all...my name is Matt Heffernan. and I'm coming to you from Larakia
-          country in Darwin, Northern Territory. and I'd like to pay my
-          respects to the elders past and present of this country, and the
-          respective countries each of you are on today.
-        </aside>
-      </section>
-      <!-- Example of nested vertical slides -->
-      <section>
-        <h2 data-id="title" >What I'll be talking about</h2>
-        <ul>
-          <li>Who I am</li>
-          <li>Indigital - what we do, NBE, what it means</li>
-          <li>GUCK - Indigi-Futurism, Future Folklore</li>
-          <li>Storytelling and Cybernetics</li>
-          <li>Questions</li>
-        </ul>
-        <!-- this is where presenter notes go -->
-        <aside class="notes">
-          So, this is what I'll be talking about today with you all. In my
-          culture, it's important to identify yourself by your name, who your
-          "mob" are, and where you come from. So that's where I'll be
-          starting. I then want to talk a little bit about some of the work
-          that I do at Indigital, and some of the ways in which we leverage
-          technology for social and economic good. Then I want to talk about
-          my other job as a video game producer at GUCK. And how Indigenous
-          ownership of our stories is vital for collaboration.I also want to
-          look at what it means to express culture in subversive ways that
-          disrupt the mental models that are developed about how/when we
-          can/and do express. Finally, i'll conclude with some other stuff i'm
-          working on, and how it integrates real world AI/robotics as it is
-          today, and how it could be imagined in the not too distant future.
-          Mykei the robot dog.
-        </aside>
-      </section>
-
-      <!-- "who i am" -->
-      <section >
+  <body>
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
         <section data-auto-animate>
-          <h2 data-id="title">Who I am</h2>
-
-          <img src="./media/Namurarri.png" alt="Mick Ngamurarri" height="200">
-          <!-- put the image of Mick here -->
-          <h3 data-id="title">Ngamurri</h3>
-          <h3 data-id="title">Tjapaltjarri</h3>
-          <h3 data-id="title"> Matt </h3>
-
-
-          <aside class="notes">
-            So my name is Matt I'm a Luritja/Arrernte and German/Irish mix. in
-            my language and culture I have a few names. My formal name is
-            Ngamurarri after my famous painter uncle "Mick Ngamurarri" of the
-            Papunya Tula arts movement. I have a few other names like
-            Tjapaltjarri, and Kalibabu . But you can just call me Matt.
-
-
-          </aside>
-        </section>
-        <section>
-          <h2 data-id="title">Where my mob are from</h2>
-          <img src="./media/papunya-from-the-air-data.jpg" alt="Image of Papunya" height="300" />
-
-          <aside class="notes">
-            My family come from around this small remote community in central Australia called Papunya or Warumpi and further west. I spent the first few years of my life here. It is the birthplace of the "dot painting" art
-            style and The Warumpi Band (famous for the song My Island Home).
-
-          </aside>
-        </section>
-
-        <section>
-          <h2>My interest in computers</h2>
-
-          <img src="./media/S3000008.JPG" height="300" alt="Matt at computer">
-
-          <p> Me...mad chillin' circa 2004 </p>
-          <aside class="notes">
-            I was first exposed to computers through my dad, who had an old laptop
-            that was the size of a small brief case. I was exposed to DOS, Basic and Space Invaders.
-
-            Growing up, in Alice Springs and later in Darwin, my interest in video games grew, so I went about learning Basic and C to try and program a text adventure.
-
-            I did some IT in school, but dropped it as an elective because i found it boring.
-
-            However, wasn't until i worked in the NT Government in the Dept of Business in the economcis and policy team that I found myself leaning on programming again.....for some reason, the department at the time, was manually downloading ABS data sheets, and manually doing the number crunches which would then be loaded into respective graphs and reports for things like the state of the states and quarterly business updates blah blah. This process would take approximately a week to pull all together. So I went about automating this by scraping the ABS website for the respective data (in retrospect I should have just used the API), I automated the calculations and then automated the populating of the graphs. A four day job turned into a 3 minute job with a press of a button. This made me realize, I actually enjoyed the coding much more than being a public servant.
-
-            from there I went into an IT degree with a software developer specialization, and have had the opportunity to work across a variety of interesting projects and agencies.
-
-          </aside>
-          <br />
-        </section>
-      </section>
-
-      <section>
-        <h2>Indigital - what we do, NBE, what it meansn</h2>
-
-
-        <p>
-          Image of working at Indigital
-        </p>
-
-        <aside class="notes">
-
-        </aside>
-      </section>
-
-      <section data-visibility="hidden">
-        <h2>Hidden Slides</h2>
-        <p>
-          This slide is visible in the source, but hidden when the
-          presentation is viewed. You can show all hidden slides by setting
-          the `showHiddenSlides` config option to `true`.
-        </p>
-      </section>
-
-      <section data-auto-animate>
-        <h2 data-id="code-title">Pretty Code</h2>
-        <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
-            import React, { useState } from 'react';
-
-            function Example() {
-            const [count, setCount] = useState(0);
-
-            return (
-            ...
-            );
-            }
-          </code></pre>
-        <p>
-          Code syntax highlighting courtesy of
-          <a href="https://highlightjs.org/usage/">highlight.js</a>.
-        </p>
-      </section>
-
-      <section data-auto-animate>
-        <h2 data-id="code-title">With animations</h2>
-        <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24">
-            <script type="text/template">
-						import React, { useState } from 'react';
-
-						function Example() {
-						  const [count, setCount] = useState(0);
-
-						  return (
-						    <div>
-						      <p>You clicked {count} times</p>
-						      <button onClick={() => setCount(count + 1)}>
-						        Click me
-						      </button>
-						    </div>
-						  );
-						}
-
-						function SecondExample() {
-						  const [count, setCount] = useState(0);
-
-						  return (
-						    <div>
-						      <p>You clicked {count} times</p>
-						      <button onClick={() => setCount(count + 1)}>
-						        Click me
-						      </button>
-						    </div>
-						  );
-						}
-					</script>
-          </code></pre>
-      </section>
-
-      <section>
-        <h2>Point of View</h2>
-        <p>Press <strong>ESC</strong> to enter the slide overview.</p>
-        <p>
-          Hold down the <strong>alt</strong> key (<strong>ctrl</strong> in
-          Linux) and click on any element to zoom towards it using
-          <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Click again to
-          zoom back out.
-        </p>
-        <p>(NOTE: Use ctrl + click in Linux.)</p>
-      </section>
-
-      <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-        <h2>Auto-Animate</h2>
-        <p>
-          Automatically animate matching elements across slides with
-          <a href="https://revealjs.com/auto-animate/">Auto-Animate</a>.
-        </p>
-        <div class="r-hstack justify-center">
-          <div data-id="box1" style="
-                background: #999;
-                width: 50px;
-                height: 50px;
-                margin: 10px;
-                border-radius: 5px;
-              "></div>
-          <div data-id="box2" style="
-                background: #999;
-                width: 50px;
-                height: 50px;
-                margin: 10px;
-                border-radius: 5px;
-              "></div>
-          <div data-id="box3" style="
-                background: #999;
-                width: 50px;
-                height: 50px;
-                margin: 10px;
-                border-radius: 5px;
-              "></div>
-        </div>
-      </section>
-      <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-        <div class="r-hstack justify-center">
-          <div data-id="box1" data-auto-animate-delay="0" style="
-                background: cyan;
-                width: 150px;
-                height: 100px;
-                margin: 10px;
-              "></div>
-          <div data-id="box2" data-auto-animate-delay="0.1" style="
-                background: magenta;
-                width: 150px;
-                height: 100px;
-                margin: 10px;
-              "></div>
-          <div data-id="box3" data-auto-animate-delay="0.2" style="
-                background: yellow;
-                width: 150px;
-                height: 100px;
-                margin: 10px;
-              "></div>
-        </div>
-        <h2 style="margin-top: 20px">Auto-Animate</h2>
-      </section>
-      <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-        <div class="r-stack">
-          <div data-id="box1" style="
-                background: cyan;
-                width: 300px;
-                height: 300px;
-                border-radius: 200px;
-              "></div>
-          <div data-id="box2" style="
-                background: magenta;
-                width: 200px;
-                height: 200px;
-                border-radius: 200px;
-              "></div>
-          <div data-id="box3" style="
-                background: yellow;
-                width: 100px;
-                height: 100px;
-                border-radius: 200px;
-              "></div>
-        </div>
-        <h2 style="margin-top: 20px">Auto-Animate</h2>
-      </section>
-
-      <section>
-        <h2>Touch Optimized</h2>
-        <p>
-          Presentations look great on touch devices, like mobile phones and
-          tablets. Simply swipe through your slides.
-        </p>
-      </section>
-
-      <section data-markdown>
-        <script type="text/template">
-            ## Markdown support
-
-            Write content using inline or external Markdown.
-            Instructions and more info available in the [docs](https://revealjs.com/markdown/).
-
-            ```html []
-            <section data-markdown>
-              ## Markdown support
-
-              Write content using inline or external Markdown.
-              Instructions and more info available in the [docs](https://revealjs.com/markdown/).
-            </section>
-            ```
-          </script>
-      </section>
-
-      <section>
-        <p>Add the <code>r-fit-text</code> class to auto-size text</p>
-        <h2 class="r-fit-text">FIT TEXT</h2>
-      </section>
-
-      <section>
-        <section id="fragments">
-          <h2>Fragments</h2>
-          <p>Hit the next arrow...</p>
-          <p class="fragment">... to step through ...</p>
-          <p>
-            <span class="fragment">... a</span>
-            <span class="fragment">fragmented</span>
-            <span class="fragment">slide.</span>
-          </p>
-
-          <aside class="notes">
-            This slide has fragments which are also stepped through in the
-            notes window.
-          </aside>
-        </section>
-        <section>
-          <h2>Fragment Styles</h2>
-          <p>There's different types of fragments, like:</p>
-          <p class="fragment grow">grow</p>
-          <p class="fragment shrink">shrink</p>
-          <p class="fragment fade-out">fade-out</p>
-          <p>
-            <span style="display: inline-block" class="fragment fade-right">fade-right,
-            </span>
-            <span style="display: inline-block" class="fragment fade-up">up,
-            </span>
-            <span style="display: inline-block" class="fragment fade-down">down,
-            </span>
-            <span style="display: inline-block" class="fragment fade-left">left</span>
-          </p>
-          <p class="fragment fade-in-then-out">fade-in-then-out</p>
-          <p class="fragment fade-in-then-semi-out">fade-in-then-semi-out</p>
-          <p>
-            Highlight <span class="fragment highlight-red">red</span>
-            <span class="fragment highlight-blue">blue</span>
-            <span class="fragment highlight-green">green</span>
-          </p>
-        </section>
-      </section>
-
-      <section id="transitions">
-        <h2>Transition Styles</h2>
-        <p>
-          You can select from different transitions, like: <br />
-          <a href="?transition=none#/transitions">None</a> -
-          <a href="?transition=fade#/transitions">Fade</a> -
-          <a href="?transition=slide#/transitions">Slide</a> -
-          <a href="?transition=convex#/transitions">Convex</a> -
-          <a href="?transition=concave#/transitions">Concave</a> -
-          <a href="?transition=zoom#/transitions">Zoom</a>
-        </p>
-      </section>
-
-      <section id="themes">
-        <h2>Themes</h2>
-        <p>
-          reveal.js comes with a few themes built in: <br />
-          <!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-          <a href="#"
-            onclick="document.getElementById('theme').setAttribute('href','dist/theme/black.css'); return false;">Black
-            (default)</a>
-          -
-          <a href="#"
-            onclick="document.getElementById('theme').setAttribute('href','dist/theme/white.css'); return false;">White</a>
-          -
-          <a href="#"
-            onclick="document.getElementById('theme').setAttribute('href','dist/theme/league.css'); return false;">League</a>
-          -
-          <a href="#"
-            onclick="document.getElementById('theme').setAttribute('href','dist/theme/sky.css'); return false;">Sky</a>
-          -
-          <a href="#"
-            onclick="document.getElementById('theme').setAttribute('href','dist/theme/beige.css'); return false;">Beige</a>
-          -
-          <a href="#"
-            onclick="document.getElementById('theme').setAttribute('href','dist/theme/simple.css'); return false;">Simple</a>
-          <br />
-          <a href="#"
-            onclick="document.getElementById('theme').setAttribute('href','dist/theme/serif.css'); return false;">Serif</a>
-          -
-          <a href="#"
-            onclick="document.getElementById('theme').setAttribute('href','dist/theme/blood.css'); return false;">Blood</a>
-          -
-          <a href="#"
-            onclick="document.getElementById('theme').setAttribute('href','dist/theme/night.css'); return false;">Night</a>
-          -
-          <a href="#"
-            onclick="document.getElementById('theme').setAttribute('href','dist/theme/moon.css'); return false;">Moon</a>
-          -
-          <a href="#"
-            onclick="document.getElementById('theme').setAttribute('href','dist/theme/solarized.css'); return false;">Solarized</a>
-        </p>
-      </section>
-
-      <section>
-        <section data-background="#dddddd">
-          <h2>Slide Backgrounds</h2>
-          <p>
-            Set <code>data-background="#dddddd"</code> on a slide to change
-            the background color. All CSS color formats are supported.
-          </p>
-          <a href="#" class="navigate-down">
-            <img class="r-frame" style="background: rgba(255, 255, 255, 0.1)" width="178" height="238"
-              data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow" />
-          </a>
-        </section>
-        <section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
-          <h2>Gradient Backgrounds</h2>
-          <pre><code class="hljs html wrap">&lt;section data-background-gradient=
-              "linear-gradient(to bottom, #ddd, #191919)"&gt;</code></pre>
-        </section>
-        <section data-background="https://static.slid.es/reveal/image-placeholder.png">
-          <h2>Image Backgrounds</h2>
-          <pre><code class="hljs html">&lt;section data-background="image.png"&gt;</code></pre>
-        </section>
-        <section data-background="https://static.slid.es/reveal/image-placeholder.png" data-background-repeat="repeat"
-          data-background-size="100px">
-          <h2>Tiled Backgrounds</h2>
-          <pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background="image.png"
-              data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-        </section>
-        <section data-background-video="https://static.slid.es/site/homepage/v1/homepage-video-editor.mp4"
-          data-background-color="#000000">
-          <div style="
-                background-color: rgba(0, 0, 0, 0.9);
-                color: #fff;
-                padding: 20px;
-              ">
-            <h2>Video Backgrounds</h2>
-            <pre><code class="hljs html" style="word-wrap: break-word;">&lt;section
-                data-background-video="video.mp4,video.webm"&gt;</code></pre>
+          <h2 data-id="title">Production and Software Development</h2>
+          <div>
+            <img
+              src="./media/spiral-school.png"
+              height="100"
+              alt="Indigital logo"
+            />
+            <img
+              src="./media/guck-text-chrome.png"
+              height="100"
+              alt="Guck logo"
+            />
           </div>
+          <p>Matt Heffernan</p>
+
+          <!-- this is where presenter notes go -->
+          <aside class="notes">
+            Hi Cybernetics class , so good to be here and to get to meet you
+            all...my name is Matt Heffernan. and I'm coming to you from Larakia
+            country in Darwin, Northern Territory. and I'd like to pay my
+            respects to the elders past and present of this country, and the
+            respective countries each of you are on today.
+          </aside>
         </section>
-        <section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-          <h2>... and GIFs!</h2>
+        <!-- Example of nested vertical slides -->
+        <section>
+          <h2 data-id="title">What I'll be talking about</h2>
+          <ul>
+            <li>Who I am</li>
+            <li>Indigital - what we do, NBE, what it means</li>
+            <li>GUCK - Indigi-Futurism, Future Folklore</li>
+            <li>Storytelling and Cybernetics</li>
+            <li>Questions</li>
+          </ul>
+          <!-- this is where presenter notes go -->
+          <aside class="notes">
+            So, this is what I'll be talking about today with you all. In my
+            culture, it's important to identify yourself by your name, who your
+            "mob" are, and where you come from. So that's where I'll be
+            starting. I then want to talk a little bit about some of the work
+            that I do at Indigital, and some of the ways in which we leverage
+            technology for social and economic good. Then I want to talk about
+            my other job as a video game producer at GUCK. And how Indigenous
+            ownership of our stories is vital for collaboration.I also want to
+            look at what it means to express culture in subversive ways that
+            disrupt the mental models that are developed about how/when we
+            can/and do express. Finally, i'll conclude with some other stuff i'm
+            working on, and how it integrates real world AI/robotics as it is
+            today, and how it could be imagined in the not too distant future.
+            Mykei the robot dog.
+          </aside>
         </section>
-      </section>
 
-      <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-        <h2>Background Transitions</h2>
-        <p>
-          Different background transitions are available via the
-          backgroundTransition option. This one's called "zoom".
-        </p>
-        <pre><code class="hljs javascript">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-      </section>
+        <!-- "who i am" -->
+        <section>
+          <section id="fragments">
+            <h2 data-id="title">Who I am</h2>
 
-      <section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-        <h2>Background Transitions</h2>
-        <p>You can override background transitions per-slide.</p>
-        <pre><code class="hljs html" style="word-wrap: break-word;">&lt;section
-            data-background-transition="zoom"&gt;</code></pre>
-      </section>
+            <img
+              src="./media/Namurarri.png"
+              alt="Mick Ngamurarri"
+              height="200"
+            />
+            <p class="fragment">Ngamurarri</p>
+            <p class="fragment">Tjapaltjarri</p>
+            <p class="fragment">Matt</p>
 
-      <section data-background-iframe="https://hakim.se" data-background-interactive>
-        <div style="
-              position: absolute;
-              width: 40%;
-              right: 0;
-              box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
-                0 5px 25px rgba(0, 0, 0, 0.2);
-              background-color: rgba(0, 0, 0, 0.9);
-              color: #fff;
-              padding: 20px;
-              font-size: 20px;
-              text-align: left;
-            ">
-          <h2>Iframe Backgrounds</h2>
-          <p>
-            Since reveal.js runs on the web, you can easily embed other web
-            content. Try interacting with the page in the background.
-          </p>
-        </div>
-      </section>
+            <aside class="notes">
+              So my name is Matt I'm a Pintupi/Luritja/Arrernte and German/Irish
+              mix. in my language and culture I have a few names. My formal name
+              is Ngamurarri after my famous painter uncle "Mick Ngamurarri" of
+              the Papunya Tula arts movement. I have a few other names like
+              Tjapaltjarri, and Kalibabu . But you can just call me Matt.
+            </aside>
+          </section>
 
-      <section>
-        <h2>Speaker View</h2>
-        <p>
-          There's a
-          <a href="https://revealjs.com/speaker-view/">speaker view</a>. It
-          includes a timer, preview of the upcoming slide as well as your
-          speaker notes.
-        </p>
-        <p>Press the <em>S</em> key to try it out.</p>
+          <!-- where my mob from  -->
+          <section>
+            <h2 data-id="title">Where my mob are from</h2>
+            <img
+              src="./media/papunya-from-the-air-data.jpg"
+              alt="Image of Papunya"
+              height="300"
+            />
+            <p>Papunya/Warumpi</p>
 
-        <aside class="notes">
-          Oh hey, these are some notes. They'll be hidden in your
-          presentation, but you can see them if you open the speaker notes
-          window (hit 's' on your keyboard).
-        </aside>
-      </section>
+            <aside class="notes">
+              My family come from around this small remote community in central
+              Australia called Papunya or Warumpi and further west out to
+              communities like Mount Leibig, Kintore and Kiwirrkura. I spent the
+              first few years of my life here. It is the birthplace of the "dot
+              painting" art style and The Warumpi Band (famous for the song My
+              Island Home). The area and mob that I come from are the last to
+              have had "first contact" with white Australians, with the last
+              group of Pintupi in 1984. A bit different to the narrative of
+              colonization happening hundreds of years ago right?
+            </aside>
+          </section>
+          <!-- interest in computers -->
+          <section>
+            <h2>My interest in computers</h2>
 
-      <section>
-        <h2>Export to PDF</h2>
-        <p>
-          Presentations can be
-          <a href="https://revealjs.com/pdf-export/">exported to PDF</a>,
-          here's an example:
-        </p>
-        <iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355"
-          frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
-          style="border: 3px solid #666; margin-bottom: 5px; max-width: 100%" allowfullscreen>
-        </iframe>
-      </section>
+            <img
+              src="./media/S3000008.JPG"
+              height="300"
+              alt="Matt at computer"
+            />
 
-      <section>
-        <h2>Global State</h2>
-        <p>
-          Set <code>data-state="something"</code> on a slide and
-          <code>"something"</code>
-          will be added as a class to the document element when the slide is
-          open. This lets you apply broader style changes, like switching the
-          page background.
-        </p>
-      </section>
+            <p>Me...mad chillin' circa 2004</p>
+            <aside class="notes">
+              I was first exposed to computers through my dad, who had an old
+              laptop that was the size of a small brief case. I was exposed to
+              DOS, Basic and Space Invaders. Growing up, in Alice Springs and
+              later in Darwin, my interest in video games grew, so I went about
+              learning Basic and C to try and program a text adventure. I did
+              some IT in school, but dropped it as an elective because i found
+              it boring. However, wasn't until i worked in the NT Government in
+              the Dept of Business in the economcis and policy team that I found
+              myself leaning on programming again.....for some reason, the
+              department at the time, was manually downloading ABS data sheets,
+              and manually doing the number crunches which would then be loaded
+              into respective graphs and reports for things like the state of
+              the states and quarterly business updates blah blah. This process
+              would take approximately a week to pull all together. So I went
+              about automating this by scraping the ABS website for the
+              respective data (in retrospect I should have just used the API), I
+              automated the calculations and then automated the populating of
+              the graphs. A four day job turned into a 3 minute job with a press
+              of a button. This made me realize, I actually enjoyed the coding
+              much more than being a public servant. from there I went into an
+              IT degree with a software developer specialization, and have had
+              the opportunity to work across a variety of interesting projects
+              and agencies.
+            </aside>
+            <br />
+          </section>
+        </section>
 
-      <section data-state="customevent">
-        <h2>State Events</h2>
-        <p>
-          Additionally custom events can be triggered on a per slide basis by
-          binding to the <code>data-state</code> name.
-        </p>
-        <pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-            Reveal.on( 'customevent', function() {
-            console.log( '"customevent" has fired' );
-            } );
-          </code></pre>
-      </section>
+        <section>
+          <section>
+            <h2>Indigital - what we do, NBE, what it means</h2>
 
-      <section>
-        <h2>Take a Moment</h2>
-        <p>
-          Press B or . on your keyboard to pause the presentation. This is
-          helpful when you're on stage and want to take distracting slides off
-          the screen.
-        </p>
-      </section>
+            <img
+              src="./media/matt teaching.jpg"
+              height="400"
+              alt="teaching kids at NLA"
+            />
 
-      <section>
-        <h2>Much more</h2>
-        <ul>
-          <li>Right-to-left support</li>
-          <li>
-            <a href="https://revealjs.com/api/">Extensive JavaScript API</a>
-          </li>
-          <li>
-            <a href="https://revealjs.com/auto-slide/">Auto-progression</a>
-          </li>
-          <li>
-            <a href="https://revealjs.com/backgrounds/#parallax-background">Parallax backgrounds</a>
-          </li>
-          <li>
-            <a href="https://revealjs.com/keyboard/">Custom keyboard bindings</a>
-          </li>
-        </ul>
-      </section>
+            <aside class="notes">
+              So I want to talk a little bit about Indigital, and some of the
+              ways in which we're using tech to inspire and disrupt the
+              education system. I think one of the downsides of western or white
+              education is that everything is compartmentalized into their
+              respective electives or disciplines etc. Even though this isn't
+              necessarily 1. the way the real world works, and 2. The way our
+              brain approaches problem solving. Related to this, is the way in
+              which "Indigenous things" are taught as ideas, events and moments
+              in history. Even though Indigenous people are still here,
+              expressing our culture in new and unique ways. Indigital has a few
+              different "arms", but our main product is our schools program.
+              Firstly, we reach out to the respective traditional owners and
+              elders of the area in which the school is.
+            </aside>
+          </section>
 
-      <section style="text-align: left">
-        <h1>THE END</h1>
-        <p>
-          - <a href="https://slides.com">Try the online editor</a> <br />
-          -
-          <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-        </p>
-      </section>
+          <section>
+            <h2>Minecraft Education</h2>
+            <img src="./media/MakeCode.png" alt="makecode interface" />
+            <aside class="notes">
+              We work with teachers and show them how to leverage Minecraft
+              Education Edition which has a Python,Javascript and "MakeCode"
+              interface. We get students to use coding to print out words in the
+              respective Indigenous languages. Or explore the traditional
+              Indigenous stories from the area and how they could be imagined
+              through these worlds. Depending on the class, this can scale in
+              complexity.
+            </aside>
+          </section>
+          <section>
+            <h2>Voice Recorder</h2>
+            <img
+              src="./media/voicerecorder.png"
+              alt="voice recorder interface"
+              height="400"
+            />
+            <aside class="notes">
+              We couple this process with Paint3D or TinkerCAD, where we
+              introduce teachers or students to 3d art and modelling. We then
+              use our voice recorder app to record the stories or just words in
+              Indigenous languages. The MineCraft world, the 3d Models and voice
+              reccordings are then all brought together in our mobile
+              application which proivdes an Augmented reality view.
+            </aside>
+          </section>
+
+          <!-- NBE or what it means -->
+          <section>
+            <h2>The New Branch of Engineering - what does this mean?</h2>
+            <p>Let's chat</p>
+
+            <aside class="notes">
+              So the amazing distingusihed Professor Genevieve Bell shared this
+              technique with my class. and .... I'm paraphrasing poorly
+              here...but sometimes it's not about "solutionizing" but about
+              framing and asking the right questions. For me the questions that
+              I want to explore is, if we're interrogating what a new branch of
+              engineering could look like, does this mean a change in the
+              individual or a change in the systems? What do you think? How do
+              Indigenous epistomologies and ontologies fit into this? Are we
+              just recreating the same systems of colonization and environmental
+              harm?
+            </aside>
+          </section>
+        </section>
+
+        <!-- GUCK -->
+        <section>
+          <section>
+            <h2>GUCK - Indigi-Futurism</h2>
+
+            <img
+              src="./media/guck-text-chrome.png"
+              height="200"
+              alt="guck logo"
+            />
+
+            <aside class="notes">
+              Hey so let's talk about my work as a producer at GUCk. - GUCK is a
+              small indy game dev studio. Made up of a diverse and mostly
+              Indigenous team. And working on a project goverened by an
+              Indigenous organisation. - Guck is working on a currently untitled
+              game, heavily influenced by Indigenous narratives.
+
+              <p>What does a video game producer do</p>
+
+              <p>
+                - The company is also influenced by Indigenous cultural
+                protocol.
+              </p>
+
+              <p>
+                --- Chat about what it looks like to be goverend by these
+                protocols, Indigenous themed, but not necessarily 1 to 1
+                derived.
+              </p>
+
+              <p>collective wellbeing</p>
+
+              <p>
+                opportunities to debrief about trauma, traumatic experiences in
+                the tech industry etc
+              </p>
+            </aside>
+          </section>
+          <section>
+            <h2>Indigi-Futurism</h2>
+            <img
+              src="./media/traditional eel trap.jpg"
+              alt="traditional eel trap Vic"
+              height="200"
+            />
+            <p style="font-size: 14px">Traditional eel Trap - Victoria</p>
+            <aside class="notes">
+              <p>
+                Indigi-Futurism is a subgenre of sci-fi, and like other
+                "futurist" fiction can include speculative history and
+                speculative fiction.....
+              </p>
+
+              <p>
+                What seperates it from its literary cousins however is the idea
+                that we're living in our post-apocalyptic dystopias future
+                now.....it's hard to ignore that after seeing images of the red
+                skies from the bush fires not long ago, or when thinking about
+                the impact of nuclear testing on Indigenous families in South
+                Australia.
+              </p>
+              <p>
+                What fascinates me is...Tjukurrpa or "dreamtime" stories aren't
+                just fairy tails or fables....they also served a purpose for our
+                survival....with new modes of expressing identity, how do we
+                create new tjukurrpa? Do your cultures or sub-cultures (broadlY
+                not just ethnic cultures) have storytelling as a means by which
+                to express identity, or to share survival information?
+              </p>
+              <p>
+                I like to imagine what this country could look like if we
+                started paying attention to the "why" of traditional Indigenous
+                engineering systems
+              </p>
+
+              <p>
+                I also like to question why mental models of Indigenous cultural
+                expression have limited us to dot paintings, didgereedoos and
+                clap sticks. While these are important, i think these new
+                modalities of identity, and tjukurrpa are just as "authentic" as
+                the aforementioned objects that are often associated with our
+                culture. Imagine if your cultural expression was reduced to the
+                object, custom that your culture/s is most famous for?
+              </p>
+            </aside>
+          </section>
+        </section>
+
+        <!-- storytelling and Cybernetics -->
+        <section>
+          <section>
+            <h2>Storytelling and Cybernetics</h2>
+            <video data-autoplay src="./media/trex.mp4"></video>
+          </section>
+
+          <aside class="notes">
+            <p>
+              So i guess this is where I get to talk about some more of the fun
+              things that I have worked on, and that feel cybernetic to
+              me....but also i think can be ways in which we as technologist can
+              create space for more realistic discussion about AI/Robotics in
+              the general public
+            </p>
+            <p>
+              So since last year I've been a mentor with the Australian and New
+              Zealand Arts Councils, where digital artists or technologists were
+              paired with an artist to help them to migrate their art into
+              digital...vauge I know. However, i was paired with the deadly
+              Roshelle Fong, and the video is .....well it's for your eyes
+              only...and it's a video of our visit to the creature workshop in
+              Melbourne...for some research for her MTC commissioned play about
+              a super intelligent robot dog that comes to live with a
+              interracial couple, one of whom is a technophobe.
+            </p>
+            <p>
+              I actually got to sit in on the first few script readings with
+              actors and it was amazing.....as a script/story consultant, there
+              was some stupid momnets for me where i was so immersed in the play
+              thinking about how realistic the depiction of robotics/AI
+              is...then I realized that ooh yeah I can't say that about my own
+              stuff haha.
+            </p>
+
+            <p>
+              The play explores how as AI is steadily increasing in its
+              capability to understand the human language, what impact could
+              this have on human to human relationships. Is the impact
+              necessarily bad?
+            </p>
+          </aside>
+          <section>
+            <img
+              src="./media/1984.png"
+              alt="1984 was meant to be a warning not a manual"
+            />
+            <aside class="notes">
+              and I guess that's a question I would like to put to you if I
+              may.....sci-fi usually depicts robots and AI as
+              malevolent....while in the real world, we sort of have a black and
+              white view (at least in most media) about tech being the enabler
+              of utopias or the harbingers of doom. Is there a middle ground
+              here? what do you think that looks like? Or one more for your
+              noodle.....do we have a responsibility as storytellers in our own
+              capacity, to imagine stories and futures for our technologies that
+              will benefit humanity?
+            </aside>
+          </section>
+        </section>
+
+        <section style="text-align: left">
+          <h1>Questions? Comments?</h1>
+        </section>
+      </div>
     </div>
-  </div>
 
-  <script src="dist/reveal.js"></script>
-  <script src="plugin/zoom/zoom.js"></script>
-  <script src="plugin/notes/notes.js"></script>
-  <script src="plugin/search/search.js"></script>
-  <script src="plugin/markdown/markdown.js"></script>
-  <script src="plugin/highlight/highlight.js"></script>
-  <script>
-    // Also available as an ES module, see:
-    // https://revealjs.com/initialization/
-    Reveal.initialize({
-      controls: true,
-      progress: true,
-      center: true,
-      hash: true,
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/search/search.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // Also available as an ES module, see:
+      // https://revealjs.com/initialization/
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
 
-      // Learn about plugins: https://revealjs.com/plugins/
-      plugins: [
-        RevealZoom,
-        RevealNotes,
-        RevealSearch,
-        RevealMarkdown,
-        RevealHighlight,
-      ],
-    });
-  </script>
-</body>
-
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [
+          RevealZoom,
+          RevealNotes,
+          RevealSearch,
+          RevealMarkdown,
+          RevealHighlight,
+        ],
+      });
+    </script>
+  </body>
 </html>
